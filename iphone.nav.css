@@ -11,10 +11,6 @@
         translate: (50%, 50%);
     }
 
-    div.iphone > iframe {
-
-    }
-
 }
 
 :root{
@@ -37,10 +33,6 @@ body {
     background-attachment: fixed;
 }
 
-section {
-    
-}
-
 div.youtube {
     background-color: white;
 }
@@ -53,7 +45,6 @@ section {
     text-align: right;
     padding: 10vh 2vh 0vh 0vh;
 }
-
 
 section > a > img {
     width: 8vh;
