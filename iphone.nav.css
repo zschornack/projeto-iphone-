@@ -1,0 +1,110 @@
+@media (max-width: 600px){
+    section {
+         
+    }    
+
+    div.iphone {
+        height: 80vh;
+        width: 40vh;
+        text-align: left;
+        translate: -50% -50%;
+        translate: (50%, 50%);
+    }
+
+    div.iphone > iframe {
+
+    }
+
+}
+
+:root{
+    button-size: (7)
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    background-image: url('images/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section {
+    
+}
+
+div.youtube {
+    background-color: white;
+}
+
+div.github {
+    background-color: white;
+}
+
+section {
+    text-align: right;
+    padding: 10vh 2vh 0vh 0vh;
+}
+
+
+section > a > img {
+    width: 8vh;
+    border-radius: 100%;
+    margin: 3vh 0vh 0vh 0vh;
+    box-shadow: 3px 4px 4px #000000a1;
+    box-sizing: border-box;
+    transition: translate .3s;
+}
+
+section > a > img:hover {
+    border: 2px solid white;
+    translate: -7% -7%;
+    box-shadow: 7px 9px 10px #000000a1;
+}
+
+
+section > a {
+    border-radius: 100%;
+    margin: 0vh 0vh 0vh 0vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.iphone {
+    height: 80vh;
+    width: 40vh;
+    position: absolute;
+    top:50%;
+    left:50%;
+    translate: -50% -50%;
+    translate: (50%, 50%);
+    background-image: url(images/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    translate: 50% -50%;
+    height: 62vh;
+    width: 35vh;
+}
+
+
+
