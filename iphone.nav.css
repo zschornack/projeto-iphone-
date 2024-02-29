@@ -8,13 +8,8 @@
         width: 40vh;
         text-align: left;
         translate: -50% -50%;
-        translate: (50%, 50%);
     }
 
-}
-
-:root{
-    button-size: (7)
 }
 
 html, body{
@@ -80,7 +75,6 @@ div.iphone {
     top:50%;
     left:50%;
     translate: -50% -50%;
-    translate: (50%, 50%);
     background-image: url(images/frame-iphone.png);
     background-repeat: no-repeat;
     background-position: center;
